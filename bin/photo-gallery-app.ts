@@ -1,9 +1,10 @@
 #!/usr/bin/env node
+import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { PhotoGalleryAppStack } from '../lib/photo-gallery-app-stack';
+import { PhotoGalleryStack } from '../lib/PhotoGalleryStack';
 
 const app = new cdk.App();
-new PhotoGalleryAppStack(app, 'PhotoGalleryAppStack', {
+new PhotoGalleryStack(app, 'PhotoGalleryStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
