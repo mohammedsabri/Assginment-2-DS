@@ -1,14 +1,36 @@
-# Welcome to your CDK TypeScript project
+## Distributed Systems - Event-Driven Architecture.
 
-This is a blank project for CDK development with TypeScript.
+__Name:__ ....your name .....
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+__Demo__: ....URL of YouTube demo ......
 
-## Useful commands
+This repository contains the implementation of a skeleton design for an application that manages a photo gallery, illustrated below. The app uses an event-driven architecture and is deployed on the AWS platform using the CDK framework for infrastructure provisioning.
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+![](./images/arch.png)
+
+### Code Status.
+
+[Advice: In this section, state the status of your submission for each feature listed below. The status options are: (1) Completed & Tested; (2) Attempted (i.e. partially works); (3) Not Attempted. Option (1) implies the feature performs the required action (e.g. updates the table) __only when appropriate__, as dictated by the relevant filtering policy described in the specification.]
+
+__Feature:__
++ Photographer:
+  + Log new Images
+  + Metadata updating
+  + Invalid image removal  
+  + Status Update Mailer
++ Moderator
+  + Status updating
+
+]e.g. 
+
+__Feature:__
++ Photographer:
+  + Log new Images - Completed and Tested.
+  + Metadata updating - Not Attempted
+  + Invalid image removal - Completed and Tested
+  + Status Update Mailer - Attempted.
++ etc
+
+### Notes (Optional)
+
+[Any additional information about your solution you wish to draw attention to.]
