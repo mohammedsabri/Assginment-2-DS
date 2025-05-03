@@ -1,8 +1,8 @@
 ## Distributed Systems - Event-Driven Architecture.
 
-__Name:__ ....your name .....
+__Name:__ ....Mohammed Sabri .....
 
-__Demo__: ....URL of YouTube demo ......
+__Demo__: ....https://youtu.be/rT0GLe5tCe8 ......
 
 This repository contains the implementation of a skeleton design for an application that manages a photo gallery, illustrated below. The app uses an event-driven architecture and is deployed on the AWS platform using the CDK framework for infrastructure provisioning.
 
@@ -14,22 +14,14 @@ This repository contains the implementation of a skeleton design for an applicat
 
 __Feature:__
 + Photographer:
-  + Log new Images
-  + Metadata updating
-  + Invalid image removal  
-  + Status Update Mailer
+  + Log new Images - Completed and Tested
+  + Metadata updating - Attempted
+  + Invalid image removal - Attempted 
+  + Status Update Mailer  - Attempted
 + Moderator
-  + Status updating
+  + Status updating - Attempted
 
-]e.g. 
 
-__Feature:__
-+ Photographer:
-  + Log new Images - Completed and Tested.
-  + Metadata updating - Not Attempted
-  + Invalid image removal - Completed and Tested
-  + Status Update Mailer - Attempted.
-+ etc
 
 ### Notes (Optional)
 
